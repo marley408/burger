@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  background-color: goldenrod
+}
+
+/* #container{
+  display: block;
+} */
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: red
+}
+
+img{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#burgerDisplay{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#burgers{
+  display: flex;
+ margin-top: 25px;
+}
+
+#burgers ol {
+  padding: 0;
+  margin: 0;
+}
+
+#burgers ol:first-of-type {
+  margin-right: 10px;
+}
+
+#burgers .burger li > * {
+  display: inline-block; 
+}
+
+#burgers .burger {
+  padding: 6px 10px 6px 25px;
+  background-color: aliceblue;
+  margin: 0 0 10px;
+  color: #a1a1a1;
+  border: 1px solid #a1a1a1;
+  border-radius: 4px;
+}
+
+.burger h3 {
+  margin: 0;
+}
+
+
+
+form{
+  flex-basis: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
