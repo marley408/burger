@@ -8,7 +8,7 @@ $(function(){
 
     if (burgerName === '') {
       alert("You must enter a burger name");
-      burgerNameInput.css({ border: "1px solid red" });
+      burgerNameInput.css({ border: "3px solid red" });
       return;
     }
 
